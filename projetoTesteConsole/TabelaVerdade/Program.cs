@@ -9,8 +9,11 @@ class TabelasVerdade {
     }
 
     static void MostrarTabelaAnd() {
-        Console.WriteLine("Tabela Verdade para P E Q E R (AND):");
-        Console.WriteLine("P | Q | R | P E Q E R");
+	Console.WriteLine('\n');
+	Console.WriteLine("(lido como 'P e Q e R'). É verdadeira somente se");
+	Console.WriteLine("ambas as proposições P e Q forem verdadeiras.");
+        Console.WriteLine("Tabela Verdade para P ^ Q ^ R (AND):");
+        Console.WriteLine("P | Q | R | P ^ Q ^ R");
         Console.WriteLine("--|---|---|------------");
         for (int p = 0; p <= 1; p++) {
             for (int q = 0; q <= 1; q++) {

@@ -26,3 +26,4 @@ C:\CyberDrag\projetoTesteConsole\TabelaVerdade\obj\Debug\net8.0\refint\TabelaVer
 C:\CyberDrag\projetoTesteConsole\TabelaVerdade\obj\Debug\net8.0\TabelaVerdade.pdb
 C:\CyberDrag\projetoTesteConsole\TabelaVerdade\obj\Debug\net8.0\TabelaVerdade.genruntimeconfig.cache
 C:\CyberDrag\projetoTesteConsole\TabelaVerdade\obj\Debug\net8.0\ref\TabelaVerdade.dll
+c:\CyberDrag\projetoTesteConsole\TabelaVerdade\obj\Debug\net8.0\TabelaVerdade.sourcelink.json

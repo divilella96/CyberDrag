@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CyberDrag\\projetoTesteConsole\\TabelaVerdade\\TabelaVerdade.csproj": {}
+    "c:\\CyberDrag\\projetoTesteConsole\\TabelaVerdade\\TabelaVerdade.csproj": {}
   },
   "projects": {
-    "C:\\CyberDrag\\projetoTesteConsole\\TabelaVerdade\\TabelaVerdade.csproj": {
+    "c:\\CyberDrag\\projetoTesteConsole\\TabelaVerdade\\TabelaVerdade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CyberDrag\\projetoTesteConsole\\TabelaVerdade\\TabelaVerdade.csproj",
+        "projectUniqueName": "c:\\CyberDrag\\projetoTesteConsole\\TabelaVerdade\\TabelaVerdade.csproj",
         "projectName": "TabelaVerdade",
-        "projectPath": "C:\\CyberDrag\\projetoTesteConsole\\TabelaVerdade\\TabelaVerdade.csproj",
+        "projectPath": "c:\\CyberDrag\\projetoTesteConsole\\TabelaVerdade\\TabelaVerdade.csproj",
         "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-        "outputPath": "C:\\CyberDrag\\projetoTesteConsole\\TabelaVerdade\\obj\\",
+        "outputPath": "c:\\CyberDrag\\projetoTesteConsole\\TabelaVerdade\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
