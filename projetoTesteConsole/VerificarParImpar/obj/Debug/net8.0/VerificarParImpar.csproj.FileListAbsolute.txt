@@ -1,0 +1,14 @@
+C:\CyberDrag\projetoTesteConsole\VerificarParImpar\bin\Debug\net8.0\VerificarParImpar.exe
+C:\CyberDrag\projetoTesteConsole\VerificarParImpar\bin\Debug\net8.0\VerificarParImpar.deps.json
+C:\CyberDrag\projetoTesteConsole\VerificarParImpar\bin\Debug\net8.0\VerificarParImpar.runtimeconfig.json
+C:\CyberDrag\projetoTesteConsole\VerificarParImpar\bin\Debug\net8.0\VerificarParImpar.dll
+C:\CyberDrag\projetoTesteConsole\VerificarParImpar\bin\Debug\net8.0\VerificarParImpar.pdb
+C:\CyberDrag\projetoTesteConsole\VerificarParImpar\obj\Debug\net8.0\VerificarParImpar.GeneratedMSBuildEditorConfig.editorconfig
+C:\CyberDrag\projetoTesteConsole\VerificarParImpar\obj\Debug\net8.0\VerificarParImpar.AssemblyInfoInputs.cache
+C:\CyberDrag\projetoTesteConsole\VerificarParImpar\obj\Debug\net8.0\VerificarParImpar.AssemblyInfo.cs
+C:\CyberDrag\projetoTesteConsole\VerificarParImpar\obj\Debug\net8.0\VerificarParImpar.csproj.CoreCompileInputs.cache
+C:\CyberDrag\projetoTesteConsole\VerificarParImpar\obj\Debug\net8.0\VerificarParImpar.dll
+C:\CyberDrag\projetoTesteConsole\VerificarParImpar\obj\Debug\net8.0\refint\VerificarParImpar.dll
+C:\CyberDrag\projetoTesteConsole\VerificarParImpar\obj\Debug\net8.0\VerificarParImpar.pdb
+C:\CyberDrag\projetoTesteConsole\VerificarParImpar\obj\Debug\net8.0\VerificarParImpar.genruntimeconfig.cache
+C:\CyberDrag\projetoTesteConsole\VerificarParImpar\obj\Debug\net8.0\ref\VerificarParImpar.dll
