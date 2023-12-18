@@ -36,13 +36,17 @@ O programa contém uma classe `TabelasVerdade` que gera e exibe tabelas de verda
 4. **Execute o Programa:** Use o comando para executar o programa.
 
    ```bash
-   TabelasVerdade.exe
+
+	dotnet run program.cs
+
    ```
 
    ou
 
    ```bash
-   dotnet run TabelasVerdade.cs
+
+	Program.exe   
+
    ```
 
 5. **Visualize as Tabelas de Verdade:** O programa exibirá as tabelas de verdade no console.

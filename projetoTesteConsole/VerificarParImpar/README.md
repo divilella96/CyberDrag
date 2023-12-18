@@ -36,13 +36,17 @@ O programa solicita ao usuário que insira um número inteiro. Em seguida, verif
 4. **Execute o Programa:** Use o comando para executar o programa.
 
    ```bash
-   Program.exe
+
+   dotnet run Program.cs
+   
    ```
 
    ou
 
    ```bash
-   dotnet run Program.cs
+
+   Program.exe
+
    ```
 
 5. **Siga as Instruções no Console:** O programa solicitará que você insira um número inteiro. Após inserir o número, o programa indicará se é par ou ímpar.
