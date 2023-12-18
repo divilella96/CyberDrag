@@ -22,7 +22,7 @@ O programa contém uma classe `TabelasVerdade` que gera e exibe tabelas de verda
 2. **Abra o Prompt de Comando:** Abra o prompt de comando ou terminal na pasta onde o código está localizado.
 
 3. **Compile o Código:** Use o comando apropriado para compilar o código C#. Para .NET Framework:
-
+ 
    ```bash
    csc TabelasVerdade.cs
    ```
