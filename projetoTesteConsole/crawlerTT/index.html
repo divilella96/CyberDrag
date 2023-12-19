@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Extrair e Mostrar Imagens</title>
+</head>
+<body>
+  <button onclick="extrairEExibirImagens()">Extrair e Mostrar Imagens</button>
+
+  <div id="containerImagens"></div>
+
+  <script>
+    function extrairEExibirImagens() {
+      window.processarImagens = function(data) {
+        const containerImagens = document.getElementById('containerImagens');
+
+        data.forEach((imagemUrl, index) => {
+          // Cria um elemento <img> para cada URL de imagem
+          const img = document.createElement('img');
+          img.src = imagemUrl;
+          img.alt = `Imagem ${index + 1}`;
+
+          // Adiciona a imagem ao contêiner no documento HTML
+          containerImagens.appendChild(img);
+        });
+      };
+
+      const script = document.createElement('script');
+      script.src = 'http://localhost:3000/?callback=processarImagens';
+      document.body.appendChild(script);
+    }
+  </script>
+</body>
+</html>
