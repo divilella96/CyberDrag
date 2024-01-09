@@ -5,7 +5,7 @@ const app = express();
 app.get('/', (req, res) => {
   const imagens = [
     'https://via.placeholder.com/150',
-    'https://via.placeholder.com/200',
+    'https://pbs.twimg.com/media/GBtTaDla8AAJ45L?format=jpg&',
     'https://via.placeholder.com/250'
   ];
 

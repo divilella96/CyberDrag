@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TabelaVerdade")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99d1a1ccbb546196798bfbd5d31c3197dc99acc9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c942b3ef9cdd8ddd80e2a748e33b4f4c2265160")]
 [assembly: System.Reflection.AssemblyProductAttribute("TabelaVerdade")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TabelaVerdade")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
