@@ -1,0 +1,27 @@
+/* Estilo para a grade de imagens */
+
+
+#botoes {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+#conteudo {
+  text-align: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+#stringsEncontradas {
+  margin: auto;
+  width: 200px;
+}
+
+.img {
+  display: flex;  
+}
+
+#conteudo img {
+  max-width: 100%; /* Garante que as imagens não ultrapassem a largura do contêiner */
+  height: auto;
+}

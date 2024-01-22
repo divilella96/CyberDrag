@@ -1,6 +1,14 @@
 const express = require('express');
 const app = express();
 
+// Configuração para permitir acesso de todos os origens (não recomendado para produção)
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
+
+
 // Rota para servir uma página com URLs de imagens de teste
 app.get('/', (req, res) => {
   const imagens = [
