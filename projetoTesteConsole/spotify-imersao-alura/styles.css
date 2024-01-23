@@ -66,25 +66,20 @@ body {
     margin-top: 10px;
 }
 
-.library .library__content{
-    display: flex;
-    justify-content: space-between;
-
-}
-
 .library .library__button{
-    display: flex;
     margin-right: 10px;
     color: #b3b3b3;
     background-color: transparent;
     border: 0px;
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
-    padding: 20px 10px;    
+    padding: 20px 10px;
+    display: flex; 
+    align-items: center; 
 }
 
 .library .library__button .fa{
@@ -94,21 +89,30 @@ body {
     padding: 8px;
 }
 
+.library .library__content{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+
 .library .library__content .fa-plus {
     margin: 24px 10px;
 }
 
 .section-playlist{
-    display: flex;
+    background-color: #242424;
     align-items: flex-start;
-    justify-content: space-between;
+    border-radius: 8px;
     gap: 20px;
-    background-color: #242424;    
+    display: flex;
+    justify-content: space-between;
+    min-block-size: 40px;
     color: #b3b3b3;
-    margin: 8px 0px;
-    padding: 16px 20px;    
-    border-radius: 10px;
-
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: 16px 20px;
 }
 
 .section-playlist .section-playlist__content{
@@ -174,5 +178,7 @@ body {
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
-
+    font-family: "DM Sans", sans-serif;
 }
+
+
