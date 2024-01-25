@@ -1,79 +1,25 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Extrair e Mostrar Imagens</title>
   <link rel="stylesheet" href="/styles.css">
 </head>
+
 <body>
 
-   <!-- 1 step -->
+  <!-- 1 step -->
   <div id="botoes">
-    <input type="file" id="fileInput">
+    <input type="file" id="fileInput" onclick="validarDom()">
     <button onclick="lerArquivo()">Processar Arquivo</button>
   </div>
   <div id="conteudo">
     <div id="stringsEncontradas"></div>
   </div>
-    
-   
-   <!-- FIM 1 step -->
 
-  <script>
-   function lerArquivo() {
-      const fileInput = document.getElementById('fileInput');
-
-      if (!fileInput.files || fileInput.files.length === 0) {
-        alert('Selecione um arquivo para processar.');
-        return;
-      }
-
-      const file = fileInput.files[0];
-      const reader = new FileReader();
-
-      reader.onload = function(event) {
-        const fileContent = event.target.result;
-
-        const imagens = extrairImagens(fileContent);
-        const imagensUnicas = removerDuplicatas(imagens);
-        exibirImagens(imagensUnicas);
-
-        // Aplicar estilo após processamento do arquivo
-        aplicarEstilo();
-      };
-
-      reader.readAsText(file);
-    }
-
-    function extrairImagens(texto) {
-      const regex = /https:\/\/pbs\.twimg\.com\/media\/(.*?)\?format=jpg/g;
-      const matches = texto.match(regex);
-
-      return matches || [];
-    }
-
-    function removerDuplicatas(array) {
-      return Array.from(new Set(array));
-    }
-
-    function exibirImagens(imagens) {
-      const divImagens = document.getElementById('stringsEncontradas');
-      divImagens.innerHTML = ''; // Limpa o conteúdo atual da div
-
-      imagens.forEach((url) => {
-        const img = document.createElement('img');
-        img.src = url;
-        img.alt = 'Imagem';
-        img.onclick = function() {
-          window.open(url); // Abre a imagem em uma nova aba ao ser clicada
-        };
-        divImagens.appendChild(img);
-      });
-    }
-
-    function aplicarEstilo() {
-      document.documentElement.classList.add('arquivo-processado'); // Adiciona uma classe ao <html>
-    }
-     // function step 1
-  </script>
+  <!-- FIM 1 step -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="/script.js"></script>
 </body>
+
 </html>

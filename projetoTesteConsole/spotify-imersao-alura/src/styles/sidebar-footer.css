@@ -1,49 +1,37 @@
-body {
-    background-color: #000;
-    font-family: var(--font-dm-sans);
-}
-
 .sidebar {
     position: fixed;
-    top: 0;
     left: 0;
-    bottom: 0;
-    padding: 12px;
+    top: 0;
     width: 300px;
+    background-color: #000000;
+    padding: 12px;
+}
+
+.sidebar .logo {
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar .logo img {
+    width: 80px;
 }
 
 .sidebar__navigation {
     background-color: #121212;
     border-radius: 8px;
-    padding: 16px 0 0 16px;
-}
-
-.sidebar__navigation2 {
-    margin-top: 8px;
-    background-color: #121212;
-    border-radius: 8px;
-    padding: 16px 0 0 16px;
-}
-
-.sidebar .logo {
-    background: #121212;
-    display: flex;
-    border-radius: 8px;
-    padding: 16px 0 0 16px;
-
-}
-
-.logo img {
-    width: 80px;    
+    cursor: pointer;
 }
 
 .sidebar nav ul {
+    list-style: none;
     margin-top: 20px;
-    padding: 0 20px 10px 20px;
+    padding: 0px 20px 10px 20px;
 }
 
 .sidebar nav ul li {
-    padding: 10px 0;
+    padding: 10px 0px;
 }
 
 .sidebar nav ul li a {
@@ -53,53 +41,62 @@ body {
     font-size: 14px;
 }
 
-.library{
+.sidebar nav ul li .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+}
+
+.sidebar nav ul li a:hover {
+    color: #ffffff;
+}
+
+.library {
     background-color: #121212;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    min-block-size: 40px;
     padding: 4px 8px;
     color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
+    flex-direction: column;
 }
 
-.library .library__button{
+.library .library__button {
     margin-right: 10px;
     color: #b3b3b3;
     background-color: transparent;
     border: 0px;
     font-size: 1rem;
     font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
     padding: 20px 10px;
-    display: flex; 
-    align-items: center; 
+    display: flex;
 }
 
-.library .library__button .fa{
+.library .library__button .fa {
     font-size: 20px;
     margin-right: 10px;
     font-weight: 300;
-    padding: 8px;
+    padding-right: 8px;
 }
 
-.library .library__content{
+.library__content {
     display: flex;
     justify-content: space-between;
-    align-items:center;
 }
-
 
 .library .library__content .fa-plus {
-    margin: 24px 10px;
+   margin: 24px 10px;
 }
 
-.section-playlist{
+.section-playlist {
     background-color: #242424;
     align-items: flex-start;
     border-radius: 8px;
@@ -114,67 +111,68 @@ body {
     padding: 16px 20px;
 }
 
-.section-playlist .section-playlist__content{
+.section-playlist .section-playlist__content {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
 }
 
-.section-playlist__content .text{
-    padding-bottom: 14px;
-    color: #fff;    
+.section-playlist__content .text {
+   padding-bottom: 14px;
+   color: #fff;
 }
 
-.section-playlist__content .title{
-    font-weight: 700;
+.section-playlist__content .title {
+   font-weight: 700;
 }
 
-.section-playlist__content .subtitle{
+.section-playlist__content .subtitle {
     font-weight: 500;
-    font-size: 12px;
-}
+    font-size: 0.8rem;
+ }
 
-.section-playlist__content .section-playlist__button{
-    display: flex;
-    justify-content: center;
-    background-color: #fff;
+ .section-playlist__content .section-playlist__button {
+    background-color: #ffffff;
     color: #000;
-    border-radius: 20px;
-    font-size: 12px;
+    border-radius: 9999px;
+    display: flex;
+    font-size: 0.8rem;
     font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
-    margin-top: 12px;
     border: 0px;
-    width: 113px;    
+    width: 113px;
+    justify-content: center;
+    margin-top: 12px;
 }
 
-.sidebar .cookies{
+.sidebar .cookies {
     margin: 25px 20px;
 }
 
-.sidebar .cookies a{
+.sidebar .cookies a {
     color: #b3b3b3;
     font-weight: 500;
-    font-size: 10px;
     text-decoration: none;
+    font-size: 10px;
 }
 
-.sidebar .cookies a:hover{
+.sidebar .cookies a:hover {
     text-decoration: underline;
 }
 
-.languages .languages__button{
+.languages .languages__button {
     background-color: transparent;
+    border-radius: 9999px;
     border: 1px solid #878787;
     color: #fff;
-    font-weight: bold;
     cursor: pointer;
     align-items: center;
+    padding: 8px;
     width: 170px;
     margin: 8px;
-    padding: 8px;
-    border-radius: 20px;
+    font-weight: bold;
 }
 
 .disclaimer-premium {
@@ -214,4 +212,8 @@ body {
     border-radius: 40px;
     cursor: pointer;
     flex-shrink: 0;
+}
+
+#artistList {
+    display: none;
 }
