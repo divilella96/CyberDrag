@@ -123,7 +123,7 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 
 .header__login .subscribe:hover {
   transform: scale(1.04);
-  color: var(--text-base-light);
+  color: #fff;
 }
 
 .header__login .login:hover {
@@ -147,14 +147,14 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 }
 
 .playlist #greeting {
-  color: var(--text-base-light);
+  color: #fff;
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 48px;
 }
 
 .playlist .session {
-  color: var(--text-base-light);
+  color: #fff;
   font-size: 24px;
   font-weight: 700;
 }
@@ -176,7 +176,7 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 /* FIM SCROLL */
 
 .offer__list-item {
-   display: grid;
+  display: grid;
   justify-items: center;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 16px;
@@ -209,7 +209,7 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   /* absolute:
                           Comportamento em relação ao ancestral posicionado mais próximo ou ao elemento raiz (se nenhum ancestral estiver posicionado).
                           Remove do fluxo normal: O elemento é removido do fluxo normal do documento, o que significa que outros elementos agem como se o elemento não estivesse presente. */
-  color: var(--text-base-light);
+  color: #fff;
   font-size: 24px;
   font-weight: 700;
 }
@@ -284,10 +284,10 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 }
 
 .grid-container {
-  grid-gap: var(--grid-gap);
+  grid-gap: 24px;
   display: grid;
-  grid-template-columns: repeat(var(--column-count), minmax(0, 1fr));
-  min-width: var(--min-container-width);
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  min-width: 372px;
 }
 
 .artist-card {
