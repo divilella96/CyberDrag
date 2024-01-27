@@ -1,6 +1,6 @@
 @media screen and (max-width: 1015px) {
   .header__search {
-     display: none !important;
+    /* display: none !important; */
     width: auto !important;
     display: none;
   }
@@ -23,9 +23,9 @@
     display: none;
   }
 
-  .offer__list-item {
+  /* .offer__list-item {
     grid-template-columns: 1fr 1fr 1fr !important;
-  }
+  } */
 }
 
 @media screen and (max-width: 375px) {
