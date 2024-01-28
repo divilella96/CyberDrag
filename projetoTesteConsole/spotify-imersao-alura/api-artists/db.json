@@ -6,6 +6,118 @@
     { "id": 4, "name": "Chitãozinho e Xororó", "genre": "Sertanejo", "urlImg": "https://i.scdn.co/image/ab676161000051744606c59411c57f7b49588be4" },
     { "id": 5, "name": "Mc Coringa", "genre": "Funk", "urlImg": "https://i.scdn.co/image/ab67616d00001e02fe8f6dd361ad0f12b88c7f56" },
     { "id": 6, "name": "Arlindo Cruz", "genre": "Samba", "urlImg": "https://i.scdn.co/image/ab67616100005174181873f93056642d7b340839" },
-    { "id": 7, "name": "Caetano Veloso", "genre": "MPB", "urlImg": "https://i.scdn.co/image/ab67616100005174e98de50f36cf1aa4bf047757" }
+    { "id": 7, "name": "Caetano Veloso", "genre": "MPB", "urlImg": "https://i.scdn.co/image/ab67616100005174e98de50f36cf1aa4bf047757" },
+    {
+      "id": 8,
+      "name": "Queen",
+      "genre": "Rock",
+      "urlImg": "https://i.scdn.co/image/ab676161000051741fe3c98367944a736ed00198"
+    },
+    {
+      "id": 9,
+      "name": "Beyoncé",
+      "genre": "Pop",
+      "urlImg": "https://i.scdn.co/image/ab67616100005174fdd930ba08f9b626d67b5c7d"
+    },
+    {
+      "id": 10,
+      "name": "Kendrick Lamar",
+      "genre": "Hip Hop",
+      "urlImg": "https://i.scdn.co/image/ab676161000051749073dfc7a4ed3d1b8a0c6e2d"
+    },
+    {
+      "id": 11,
+      "name": "Maiara & Maraisa",
+      "genre": "Sertanejo",
+      "urlImg": "https://i.scdn.co/image/ab676161000051749a9a645106ab3aeb65a77c5c"
+    },
+    {
+      "id": 12,
+      "name": "Anitta",
+      "genre": "Funk",
+      "urlImg": "https://i.scdn.co/image/ab676161000051747e76aef5b6d2f1a73a4e5717"
+    },
+    {
+      "id": 13,
+      "name": "Zeca Pagodinho",
+      "genre": "Samba",
+      "urlImg": "https://i.scdn.co/image/ab67616100005174659c1c4c837b9b7a9b12b7ea"
+    },
+    {
+      "id": 14,
+      "name": "Gilberto Gil",
+      "genre": "MPB",
+      "urlImg": "https://i.scdn.co/image/ab676161000051744d16f3fe7dd2ab4d453888e5"
+    },
+    {
+      "id": 15,
+      "name": "Metallica",
+      "genre": "Metal",
+      "urlImg": "https://i.scdn.co/image/ab67616100005174f87d5b6b0d0e2ec83f189772"
+    },
+    
+
+  {
+    "id": 16,
+    "name": "Coldplay",
+    "genre": "Alternative",
+    "urlImg": "https://i.scdn.co/image/ab67616100005174b14f945bbca6c6b110db1c0f"
+  },
+  {
+    "id": 17,
+    "name": "Taylor Swift",
+    "genre": "Pop",
+    "urlImg": "https://i.scdn.co/image/ab67616100005174e4b1382eb2189c36c95d25f0"
+  },
+  {
+    "id": 18,
+    "name": "Drake",
+    "genre": "Hip Hop",
+    "urlImg": "https://i.scdn.co/image/ab67616100005174c3b3aefcf2dcf3e69c0a6866"
+  },
+  {
+    "id": 19,
+    "name": "Marília Mendonça",
+    "genre": "Sertanejo",
+    "urlImg": "https://i.scdn.co/image/ab6761610000517498e0c2b580348d78b41c151f"
+  },
+  {
+    "id": 20,
+    "name": "Ludmilla",
+    "genre": "Funk",
+    "urlImg": "https://i.scdn.co/image/ab676161000051749b69dd6a881268f6b3e2ceac"
+  },
+  {
+    "id": 21,
+    "name": "Fundição Progresso",
+    "genre": "Samba",
+    "urlImg": "https://i.scdn.co/image/ab67616100005174f10ecbc9395c8daa84e59475"
+  },
+  {
+    "id": 22,
+    "name": "Gal Costa",
+    "genre": "MPB",
+    "urlImg": "https://i.scdn.co/image/ab6761610000517405aa1e8fbcd5541db202e200"
+  },
+  {
+    "id": 23,
+    "name": "Linkin Park",
+    "genre": "Rock",
+    "urlImg": "https://i.scdn.co/image/ab676161000051741d5e90f4083b14c2e6f0c394"
+  },
+  {
+    "id": 24,
+    "name": "Ed Sheeran",
+    "genre": "Pop",
+    "urlImg": "https://i.scdn.co/image/ab67616100005174fd10c1c284e6923807bb1c6b"
+  },
+  {
+    "id": 25,
+    "name": "Eminem",
+    "genre": "Hip Hop",
+    "urlImg": "https://i.scdn.co/image/ab67616100005174e9602a0f6226ff6331d52450"
+  }
+
   ]
+  
 }
