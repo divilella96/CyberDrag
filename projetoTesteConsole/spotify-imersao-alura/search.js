@@ -3,7 +3,7 @@ const playlistContainer = document.getElementById("result-playlists");
 const searchInputS = document.getElementById("search-input");
 
 function requestApi(searchTerm) {
-  fetch(`https://api-artists-git-main-divilella96.vercel.app/artists/artists?name_like=${searchTerm}`)
+  fetch(`https://api-artists-git-main-divilella96.vercel.app/artists?name_like=${searchTerm}`)
     .then((response) => response.json())
     .then((results) => displayResults(results));
 }

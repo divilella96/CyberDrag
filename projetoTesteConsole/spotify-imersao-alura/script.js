@@ -3,7 +3,7 @@ const resultArtist = document.getElementById('result-artist');
 const resultPlaylist = document.getElementById('result-playlists');
 
 function requestApi(searchTerm){
-    const url = `https://api-artists-git-main-divilella96.vercel.app/artistsartists?name_like=${searchTerm}`
+    const url = `https://api-artists-git-main-divilella96.vercel.app/artists?name_like=${searchTerm}`
     fetch(url)
         .then((response) => response.json())
         .then((result) => displayResults(result))
